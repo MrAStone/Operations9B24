@@ -91,6 +91,44 @@
                 Console.WriteLine("greater than or equal to 3");
             }
 
+            // Boolean operations
+            bool first = true;
+            bool second = false;
+            //Not
+            if (!first)
+            {
+                Console.WriteLine("first is not true!");
+            }
+            if (!second)
+            {
+                Console.WriteLine("second is not false");
+            }
+            //And
+            if(first && second)
+            {
+                Console.WriteLine("Only true if both are true");
+            }
+            if(3>1 && a < 100)
+            {
+                Console.WriteLine("If both comparisons are true, then true");
+            }
+            if(a<1 && a > 10)
+            {
+                Console.WriteLine("Will never be true!");
+            }
+
+            // OR
+            if(first || second)
+            {
+                Console.WriteLine("If one is true");
+            }
+
+            //XOR - one or the other but not both
+            if(first ^ second)
+            {
+                Console.WriteLine("Only one is true");
+            }
+
 
 
 
